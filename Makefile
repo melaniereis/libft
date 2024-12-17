@@ -65,7 +65,7 @@ SRCS_BONUS = ${addprefix ${BONUS_PATH}/, ft_lstnew.c ft_lstadd_front.c \
 # Extra files for extra part
 SRCS_EXTRA = ${addprefix ${EXTRA_PATH}/, ft_printchar.c	ft_printhexa.c \
 		ft_printpointer.c ft_printunsigned.c ft_printf.c ft_printnum.c \
-		ft_printstring.c get_next_line_bonus.c ft_atol.c}
+		ft_printstring.c get_next_line_bonus.c ft_atol.c ft_strjoin_free.c}
 
 # Object files derived from source files
 OBJS = ${addprefix ${BUILD_PATH}/, ${notdir ${SRCS:.c=.o}}}
