@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: meferraz <meferraz@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: meferraz <meferraz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 13:28:27 by meferraz          #+#    #+#             */
-/*   Updated: 2024/11/07 13:28:45 by meferraz         ###   ########.fr       */
+/*   Updated: 2024/12/17 16:12:18 by meferraz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,7 @@ static char	*ft_create_buffer(char *buff, char *buffer)
 {
 	char	*tempbuff;
 
-	tempbuff = ft_strjoin(buff, buffer);
+	tempbuff = ft_strjoin_free(buff, buffer);
 	if (!tempbuff)
 	{
 		free(buff);
