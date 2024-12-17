@@ -6,7 +6,7 @@
 /*   By: meferraz <meferraz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 12:15:25 by meferraz          #+#    #+#             */
-/*   Updated: 2024/11/22 15:17:31 by meferraz         ###   ########.fr       */
+/*   Updated: 2024/12/17 16:15:59 by meferraz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,7 @@ void	ft_printunsigned(unsigned int num, int *len);
 void	ft_printpointer(void *ptr, int *len);
 void	ft_printhexa(unsigned long long num, const char format, int *len);
 long	ft_atol(const char *nptr);
+char	*ft_strjoin_free(char const *s1, char const *s2);
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 10
