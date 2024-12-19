@@ -36,6 +36,7 @@ char	*ft_strjoin_free(char const *s1, char const *s2)
 		i++;
 	}
 	p[size_s1 + i] = '\0';
-	free((void *)s1);
+	if (s1)
+		free((void *)s1);
 	return (p);
 }
