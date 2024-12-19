@@ -150,4 +150,3 @@ static char	*update_buffer(char *buff)
 	free(buff);
 	return (buffer);
 }
-
