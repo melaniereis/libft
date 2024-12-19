@@ -6,7 +6,7 @@
 /*   By: meferraz <meferraz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 13:28:27 by meferraz          #+#    #+#             */
-/*   Updated: 2024/12/17 16:12:18 by meferraz         ###   ########.fr       */
+/*   Updated: 2024/12/19 10:54:16 by meferraz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,18 @@ char	*get_next_line(int fd)
 	if (!buffer[fd])
 		return (NULL);
 	line = extract_line(buffer[fd]);
+	if (!line)
+	{
+		free(buffer[fd]);
+		buffer[fd] = NULL;
+		return (NULL);
+	}
 	buffer[fd] = update_buffer(buffer[fd]);
+	if (!buffer[fd] || !*buffer[fd])
+	{
+		free(buffer[fd]);
+		buffer[fd] = NULL;
+	}
 	return (line);
 }
 
