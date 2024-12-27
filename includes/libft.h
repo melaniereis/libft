@@ -20,6 +20,7 @@
 # include <strings.h>
 # include <string.h>
 # include <stddef.h>
+# include <stdarg.h>
 
 // Mandatory Part 1
 int		ft_isalpha(int c);
