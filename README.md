@@ -1,6 +1,6 @@
 # libft 📔
 <p align="center">
-![Libft Logo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGluZWpoeDhqN2NpZmJ4bHJwNzh2NnB2YTJ3bHZjemFmOXl4anE0eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fsXOS3oBboiYf6fSsY/giphy.webp)
+  <img src="[https://media.giphy.com/media/3o7buirYh9nH8W5e1O/giphy.gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGluZWpoeDhqN2NpZmJ4bHJwNzh2NnB2YTJ3bHZjemFmOXl4anE0eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fsXOS3oBboiYf6fSsY/giphy.webp)" alt="Libft Logo" />
 </p>
 
 *(A 42 School Project)*
