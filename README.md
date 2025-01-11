@@ -1,6 +1,6 @@
 # libft 📔
 
-![Libft Logo](https://media.giphy.com/media/3o7buirYh9nH8W5e1O/giphy.gif)
+![Libft Logo]([https://media.giphy.com/media/3o7buirYh9nH8W5e1O/giphy.gif](https://media3.giphy.com/media/fsXOS3oBboiYf6fSsY/giphy.gif?cid=6c09b952vlc22712l369kmnbau4swrqzdk3eg8fhgaofcfko&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g))
 
 *(A 42 School Project)*
 
@@ -50,10 +50,14 @@ To utilize the functions from this library in your projects, include the followi
 Here’s a simple example demonstrating how to use one of the functions from the library:
 
 ```bash
-#include "libft.h" int main() {
-char *str = "Hello, libft!";
-ft_putstr(str); // Custom function to print strings
-return 0;
+#include "libft.h"
+int main()
+{
+  char *str;
+
+  str = "Hello, libft!";
+  ft_putstr(str); // Custom function to print strings
+  return (0);
 }
 ```
 
@@ -116,9 +120,12 @@ To ensure the reliability and performance of your library, rigorous testing is e
 Here’s an example of how you might structure a test case for one of your functions:
 ```bash
 #include "libft.h"
-#include <assert.h> void test_ft_strlen() {
-assert(ft_strlen("Hello") == 5);
-assert(ft_strlen("") == 0);
+#include <assert.h>
+
+void test_ft_strlen()
+{
+  assert(ft_strlen("Hello") == 5);
+  assert(ft_strlen("") == 0);
 }
 ```
 
