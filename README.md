@@ -1,6 +1,6 @@
 # libft 📔
 
-![Libft Logo]([https://media.giphy.com/media/3o7buirYh9nH8W5e1O/giphy.gif](https://media3.giphy.com/media/fsXOS3oBboiYf6fSsY/giphy.gif?cid=6c09b952vlc22712l369kmnbau4swrqzdk3eg8fhgaofcfko&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g))
+![Libft Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fgifs%2FHarrisCountyPublic-hcpl-harriscountypl-harris-county-public-library-fsXOS3oBboiYf6fSsY&psig=AOvVaw2zl1DqUoNgPg-JLHFKqNHH&ust=1736698244038000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJjigqGH7ooDFQAAAAAdAAAAABAI)
 
 *(A 42 School Project)*
 
